@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/preferences_category_network" android:key="pref_cat_network">
+        <EditTextPreference android:key="pref_network_ip" android:title="@string/preferences_network_ip" android:enabled="true" android:defaultValue="ns-server.epita.fr" />
+        <EditTextPreference android:key="pref_network_port" android:title="@string/preferences_network_port" android:enabled="true" android:defaultValue="4242" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_credentials" android:key="pref_cat_credentials">
+        <EditTextPreference android:key="pref_credentials_login" android:title="@string/preferences_credentials_login" android:summary="" android:enabled="true" android:defaultValue="login_x"/>
+        <EditTextPreference android:key="pref_credentials_password" android:title="@string/preferences_credentials_passwd" android:summary="" android:enabled="true" android:defaultValue="" android:inputType="textPassword" />
+    </PreferenceCategory>
+</PreferenceScreen>

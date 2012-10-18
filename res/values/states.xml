@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="states_array">
+        <item>actif</item>
+        <item>away</item>
+        <item>lock</item>
+        <item>Disconnected</item>
+    </string-array>
+</resources>
